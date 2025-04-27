@@ -1,0 +1,68 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+body{
+    margin: 5%;
+    background-color: aliceblue;
+    display: flex;
+}
+.l{
+    padding-left: 10%;
+    padding-top: 15%;
+    width: 45%;
+    float: left;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+}
+.r{
+    width: 43%;
+    float: right;
+    padding: 10px;
+    display: flex;
+    
+}
+.cal{
+    background-color: rgb(69, 69, 69);
+    margin-right: 350px;
+    border-radius: 15px;
+    display: flex;
+    
+    flex-direction: column;
+}
+input{
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 75px;
+    width: 210px;
+    font-size: 40px;
+    padding-left: 15px;
+    display: flex;
+    
+    flex-direction: column;
+}
+button{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+button:hover{
+    opacity: 0.5;
+    display: flex;
+}
+button:active{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: flex;
+}

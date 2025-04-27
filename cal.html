@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="l"><div style="font-size: 60px;"><b>Simple</b></div><div style="font-size: 60px;"><b>calculator</b></div><div style="padding-top: 10px; padding-bottom: 10px;margin-right: 200px ; padding-left: 20px ; background-color: red; border-radius: 5px; color: white; font-size: 25px;"><b>JavaScript Project</b></div></div>
+    <div class="r">
+        <div class="cal">
+            <div style="background-color: rgb(0, 0, 0); color: white; border-radius: 15px;">
+                <input id="display" readonly placeholder="0">
+            </div>
+            
+            <div style="padding: 10px; flex-direction: column;">
+                <div style="">
+                    <button onclick="operation('*')" style="background-color: orange; color: white;">X</button>
+                    <button onclick="operation('/')" style="background-color: orange; color: white;">/</button>
+                    <button onclick="operation('-')" style="background-color: orange; color: white;">-</button>
+                    <button onclick="operation('+')" style="background-color: orange; color: white;">+</button>
+                </div>
+                <div>
+                    <button onclick="operation('9')">9</button>
+                    <button onclick="operation('8')">8</button>
+                    <button onclick="operation('7')">7</button>
+                    <button onclick="operation('6')">6</button>
+                </div>
+                <div>
+                    <button onclick="operation('5')">5</button>
+                    <button onclick="operation('4')">4</button>
+                    <button onclick="operation('3')">3</button>
+                    <button onclick="operation('2')">2</button>
+                </div>
+                <div>
+                    <button onclick="operation('1')">1</button>
+                    <button onclick="operation('0')">0</button>
+                    <button onclick="operation('.')">.</button>
+                    <button onclick="calculate()" style="background-color: green; color: white;">=</button>
+                </div>
+                <div>
+                    <button onclick="clearDisplay()" style="background-color: red;" >C</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
